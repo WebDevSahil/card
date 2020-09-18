@@ -9,7 +9,10 @@
 html, 
 body {
   font-family: 'Poppins', sans-serif;
+  height: 92vh;
   line-height: 1.2;
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 50%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
 }
 
 .container {
@@ -20,6 +23,8 @@ body {
 h1 {
   text-align: center;
   margin-top: 3rem;
+  color: #fff;
+  font-size: 3rem;
 }
 
 .cards {
@@ -59,7 +64,7 @@ h1 {
 
 .card:hover .card-body{
   background: #fff;
-  box-shadow: 3px 3px 6px rgba(0,0,0,0.1),
+  box-shadow: 3px 3px 6px rgba(0,0,0,0.6),
   -3px -3px 6px rgba(0,0,0,0.1);
 }
 
